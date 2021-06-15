@@ -10,13 +10,13 @@ Aiming to be the **perfect** The Lounge theme out there.
 
 ## Features
 
-- Minimal UI
-- Easy on the eyes
-- Conversation layout, see [#2591](https://github.com/thelounge/thelounge/pull/2591#issuecomment-785429158)<br>
-<s>- Automatic theme that has both day/light and night/dark versions based on your operating system setting</s> Currently only possible [here](https://github.com/pulinairc/thelounge-themes/blob/3584d5ed5240cc4e5c322f6dd2fdd768e9e0131b/dist/auto-day-midnight.css)
-- Fixed preview images with correct dimensions
-- Fixed most of The Lounge style bugs
-- The most readable modern fonts on Retina and 60hz mobile screens
+* Minimal UI
+* Easy on the eyes
+* Conversation layout, see [#2591](https://github.com/thelounge/thelounge/pull/2591#issuecomment-785429158)
+* <s>Automatic theme that has both day/light and night/dark versions based on your operating system setting</s> Currently only possible [here](https://github.com/pulinairc/thelounge-themes/blob/3584d5ed5240cc4e5c322f6dd2fdd768e9e0131b/dist/auto-day-midnight.css)
+* Fixed preview images with correct dimensions
+* Fixed most of The Lounge style bugs
+* The most readable modern fonts on Retina and 60hz mobile screens
 
 | Desktop view  | Mobile conversation layout |
 | ------------- | ------------- |
