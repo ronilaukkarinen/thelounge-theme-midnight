@@ -1,3 +1,7 @@
+### 1.1.1: 2021-06-15
+
+* Update docs, bump to 1.1.1
+
 ### 1.1.0: 2021-06-15
 
 * Release yarn and npm packages
