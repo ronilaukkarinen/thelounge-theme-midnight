@@ -29,6 +29,6 @@
     "stylelint-order": "^4.1.0"
   },
   "scripts": {
-    "test": "stylelint classic.css"
+    "test": "stylelint midnight.css"
   }
 }
