@@ -1,3 +1,8 @@
 package-lock.json
 node_modules
 .sass-cache
+*.map
+.yarn
+.pnp.js
+.yarnrc.yml
+yarn.lock

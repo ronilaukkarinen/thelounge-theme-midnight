@@ -1,3 +1,11 @@
+### 1.1.0: 2021-06-15
+
+* Release yarn and npm packages
+
+### 1.0.9: 2021-06-15
+
+* Release repo separately from pulinairc/thelounge-themes
+
 ### 1.0.8: 2021-03-01
 
 * Make sure mobile breakpoint is honored

@@ -24,7 +24,9 @@ Aiming to be the **perfect** The Lounge theme out there.
 
 ## Installation
 
-Coming soon.
+``` shell
+thelounge install thelounge-theme-midnight
+```
 
 ### Development
 
