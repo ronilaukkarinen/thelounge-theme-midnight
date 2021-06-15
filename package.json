@@ -1,0 +1,37 @@
+{
+  "name": "thelounge-theme-midnight",
+  "version": "1.0.9",
+  "description": "Midnight theme for the lounge with bubble layout on mobile devices",
+  "main": "package.json",
+  "thelounge": {
+    "name": "Midnight",
+    "type": "theme",
+    "css": "midnight.css"
+  },
+  "author": "Roni Laukkarinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ronilaukkarinen/thelounge-theme-midnight/issues"
+  },
+  "homepage": "https://github.com/ronilaukkarinen/thelounge-theme-midnight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronilaukkarinen/thelounge-theme-midnight.git"
+  },
+  "keywords": [
+    "thelounge",
+    "thelounge-theme",
+    "thelounge-theme-midnight"
+  ],
+  "devDependencies": {
+    "scss": "^0.2.4",
+    "stylelint": "^13.11.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-use-variable": "^1.7.2",
+    "stylelint-order": "^4.1.0"
+  },
+  "scripts": {
+    "test": "stylelint classic.css"
+  }
+}
