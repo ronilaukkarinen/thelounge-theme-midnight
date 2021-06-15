@@ -1,6 +1,6 @@
 ## Modern The Lounge theme for Modern IRC
 
-[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/thelounge-theme-midnight.svg?style=flat-square)](https://github.com/ronilaukkarinen/thelounge-theme-midnight/releases) <a href="https://yarn.pm/thelounge-theme-midnight"><img alt="npm version" src="https://img.shields.io/npm/v/thelounge-theme-midnight.svg?style=flat-square"></a> <a href="https://npm-stat.com/charts.html?package=thelounge-theme-midnight&from=2016-02-12"><img alt="Total downloads on npm" src="https://img.shields.io/npm/dt/thelounge-theme-midnight.svg?colorB=007dc7&style=flat-square"></a> [![The Lounge](https://img.shields.io/badge/tested%20with%20thelounge-4.2.0-ff9e18.svg?style=flat-square)](https://github.com/thelounge/thelounge)
+[![GitHub release](https://img.shields.io/github/tag/ronilaukkarinen/thelounge-theme-midnight.svg?style=flat-square)](https://github.com/ronilaukkarinen/thelounge-theme-midnight/releases) <a href="https://www.npmjs.com/package/thelounge-theme-midnight"><img alt="npm version" src="https://img.shields.io/npm/v/thelounge-theme-midnight.svg?style=flat-square"></a> <a href="https://npm-stat.com/charts.html?package=thelounge-theme-midnight&from=2016-02-12"><img alt="Total downloads on npm" src="https://img.shields.io/npm/dt/thelounge-theme-midnight.svg?colorB=007dc7&style=flat-square"></a> [![The Lounge](https://img.shields.io/badge/tested%20with%20thelounge-4.2.0-ff9e18.svg?style=flat-square)](https://github.com/thelounge/thelounge)
 
 Aiming to be the **perfect** The Lounge theme out there.
 
