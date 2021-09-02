@@ -50,6 +50,8 @@ $color-timestamp-highlight-mobile-conversation-layout: lighten(#374468, 22%);
   --font-size-join-button: 20px;
   --font-weight-msg: 300;
   --font-weight-nick: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
   --font-weight-toggle-chanlist: 500;
   --font-weight-chat-timestamp: 300;
   --line-height-chat-msg: 1.5;
@@ -409,10 +411,15 @@ input {
 
 // Font weights for toggles and bolds
 .channel-list-item[data-type=lobby],
-.irc-bold,
 #chat .toggle-content .head {
   font-size: var(--font-size-embed-text);
   font-weight: var(--font-weight-toggle-chanlist);
+}
+
+#chat .content span[class*="irc-"].irc-bold,
+#chat .content span.irc-bold,
+.irc-bold {
+  font-weight: var(--font-weight-semibold);
 }
 
 @media (max-width: $breakpoint-mobile) {
@@ -649,7 +656,7 @@ kbd {
 
 #chat .chat-view[data-type=channel] .msg.highlight .content {
   color: var(--highlight-msg-color);
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
 }
 
 // Embed thumbs and toggle content
@@ -814,7 +821,7 @@ body:not(.public) #connectform h2 {
   box-decoration-break: clone;
   display: block;
   font-size: 62px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-align: left;
   -webkit-text-fill-color: transparent;
   visibility: visible;
@@ -829,7 +836,7 @@ body:not(.public) #connectform h2 {
   content: 'Valitse nimimerkki';
   display: block;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-align: left;
   -webkit-text-fill-color: transparent;
   visibility: visible;
@@ -892,7 +899,7 @@ body:not(.public) #connectform h2 {
 #connectform input.input,
 #connectform button {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
   height: auto;
   padding: 15px 20px;
   transition: all 22ms;
