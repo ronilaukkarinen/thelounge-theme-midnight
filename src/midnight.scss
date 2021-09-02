@@ -12,6 +12,7 @@ $color-timestamp-highlight-mobile-conversation-layout: lighten(#374468, 22%);
   --msg-action-color: #f1fa8c;
   --border-color: #20283b;
   --body-color-muted: #6272a4;
+  --msg-self-background-color: var(--border-color);
   --body-bg-color: #0b152b;
   --button-color: #50fa7b;
   --button-text-color-hover: #282a36;
@@ -304,6 +305,11 @@ input {
 #chat .msg.self .content,
 #chat .msg.self .content * {
   color: var(--msg-self-color);
+}
+
+#chat .msg.self {
+  background-color: rgb(13, 22, 45);
+  background-image: linear-gradient(90deg, rgba(32, 40, 59, 1) 0%, rgba(32, 40, 59, 1) 30%, rgba(32, 40, 59, 1) 50%, rgba(26, 34, 55, .6) 70%, rgba(13, 22, 45, 0) 100%);
 }
 
 // Actions via /me command
