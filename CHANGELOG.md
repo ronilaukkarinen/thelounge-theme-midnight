@@ -1,3 +1,11 @@
+### 1.1.2: 2021-09-02
+
+* Add minimal gradient to msg self to be more distinct
+* Increase contrast of body text color
+* Fix bold font size and weight
+* Slight readability updates
+* Fix list styles
+
 ### 1.1.1: 2021-06-15
 
 * Update docs, bump to 1.1.1
