@@ -27,8 +27,8 @@ $color-timestamp-highlight-mobile-conversation-layout: lighten(#374468, 22%);
   --highlight-msg-color: #fff;
   --highlight-border-color: #44475a;
   --upload-progressbar-color: #50fa7b;
-  --time-color: #374468;
-  --time-color-hover: #42527e;
+  --time-color: #44537e;
+  --time-color-hover: #54679b;
   --channel-list-item-hover-background: rgba(255, 255, 255, .05);
   --color-toggle-content: #f3f3f3;
   --color-toggle-content-body: #99a2b4;
@@ -39,9 +39,9 @@ $color-timestamp-highlight-mobile-conversation-layout: lighten(#374468, 22%);
   --chat-bubble-background: rgba(18, 32, 70, .7);
 
   // Font related
-  --font-size: 15px;
-  --font-size-msg: 15px;
-  --font-size-nick: 15px;
+  --font-size: 16px;
+  --font-size-msg: 16px;
+  --font-size-nick: 16px;
   --font-size-chat-timestamp: 15px;
   --font-size-channel-list: 15px;
   --font-size-embed-text: 15px;
@@ -52,7 +52,7 @@ $color-timestamp-highlight-mobile-conversation-layout: lighten(#374468, 22%);
   --font-weight-nick: 500;
   --font-weight-toggle-chanlist: 500;
   --font-weight-chat-timestamp: 300;
-  --line-height-chat-msg: 1.45;
+  --line-height-chat-msg: 1.5;
 
   // Base colors that don't need to be touched
   --color-webkit-tap: rgba(0, 0, 0, 0);
