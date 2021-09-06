@@ -1,3 +1,7 @@
+### 1.1.3: 2021-09-06
+
+* Switch hilight and self backgrounds
+
 ### 1.1.2: 2021-09-02
 
 * Add minimal gradient to msg self to be more distinct

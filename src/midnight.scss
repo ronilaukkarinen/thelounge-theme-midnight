@@ -308,8 +308,7 @@ input {
 }
 
 #chat .msg.self {
-  background-color: rgb(13, 22, 45);
-  background-image: linear-gradient(90deg, rgba(32, 40, 59, 1) 0%, rgba(32, 40, 59, 1) 30%, rgba(32, 40, 59, 1) 50%, rgba(26, 34, 55, .6) 70%, rgba(13, 22, 45, 0) 100%);
+  background-color: transparent;
 }
 
 // Actions via /me command
@@ -657,6 +656,7 @@ kbd {
 
 #chat .chat-view[data-type=channel] .msg.highlight {
   background: var(--highlight-bg-color);
+  background-image: linear-gradient(90deg, rgba(32, 40, 59, 1) 0%, rgba(32, 40, 59, 1) 30%, rgba(32, 40, 59, 1) 50%, rgba(26, 34, 55, .6) 70%, rgba(13, 22, 45, 0) 100%);
   border-left: 0;
 }
 
