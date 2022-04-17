@@ -1,3 +1,7 @@
+### 1.1.5: 2022-04-17
+
+* Always show timestamp at the end of the message
+
 ### 1.1.4: 2022-04-17
 
 * Remove extra margin
