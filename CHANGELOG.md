@@ -1,3 +1,9 @@
+### 1.1.6: 2022-04-17
+
+* Remove strange margins, fixes to conversation layout
+* Improve condensed messages, fixes #1
+* Change conversation layout to css grid instead of flex
+
 ### 1.1.5: 2022-04-17
 
 * Always show timestamp at the end of the message
