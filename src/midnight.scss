@@ -339,10 +339,6 @@ input {
     grid-template-columns: minmax(200px, 1fr) 46px;
   }
 
-  #chat .msg.closed[data-type=condensed] .msg {
-    display: none;
-  }
-
   #chat .time {
     overflow: visible;
     white-space: nowrap;
@@ -1021,13 +1017,21 @@ body #connectform input.input {
   }
 
   // Bubble-like layout
+  #chat .msg[data-type=condensed] {
+    width: 100%;
+  }
+
+  #chat .msg[data-type=condensed],
   #chat .msg {
     background: var(--chat-bubble-background);
     border-radius: 8px;
-    display: block;
     margin: 4px 10px;
     max-width: 82%;
     padding: 8px 10px;
+
+    > .msg {
+      margin-left: 0;
+    }
 
     .from .user,
     .from,
@@ -1040,6 +1044,7 @@ body #connectform input.input {
     }
 
     .time {
+      align-self: end;
       font-size: var(--font-size-chat-timestamp);
       margin-right: 0;
       position: static;
