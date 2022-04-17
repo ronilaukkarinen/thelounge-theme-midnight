@@ -433,13 +433,6 @@ input {
   }
 }
 
-// Margin fix
-#chat button.menu,
-#viewport .lt,
-#viewport .rt {
-  margin-top: 4px;
-}
-
 // Colored nicks
 // It's okay not to use variables here, these are one-time use
 /* stylelint-disable sh-waqar/declaration-use-variable */

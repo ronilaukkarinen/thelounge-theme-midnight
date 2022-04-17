@@ -21,6 +21,7 @@
     "thelounge-theme-midnight"
   ],
   "devDependencies": {
+    "dart-sass": "^1.25.0",
     "scss": "^0.2.4",
     "stylelint": "^13.11.0",
     "stylelint-config-recommended-scss": "^4.2.0",
