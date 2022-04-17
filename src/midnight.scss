@@ -336,7 +336,7 @@ input {
     float: left;
     font-size: var(--font-size-msg);
     gap: 0 2px;
-    grid-template-columns: minmax(200px, 1fr) 46px;
+    grid-template-columns: minmax(50px, 1fr) 46px;
   }
 
   #chat .time {
@@ -1018,6 +1018,8 @@ body #connectform input.input {
 
   // Bubble-like layout
   #chat .msg[data-type=condensed] {
+    display: grid;
+    grid-column: 1 / -1;
     width: 100%;
   }
 
@@ -1052,12 +1054,7 @@ body #connectform input.input {
     }
 
     &.previous-source {
-      margin-top: -1px;
       padding: 5px 10px;
-
-      .content {
-        margin-bottom: -6px;
-      }
     }
   }
 
@@ -1093,10 +1090,6 @@ body #connectform input.input {
 
     &.previous-source {
       font-size: var(--font-size-msg);
-
-      .content {
-        margin-bottom: -6px;
-      }
     }
 
     .time {
