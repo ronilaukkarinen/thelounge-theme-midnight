@@ -329,12 +329,14 @@ input {
 
   #chat .msg:not(.closed):not([data-type=condensed]),
   #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
-    align-items: flex-end;
+    align-items: unset;
     clear: both;
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
     float: left;
     font-size: var(--font-size-msg);
-    gap: 5px;
+    gap: 0 2px;
+    grid-template-columns: minmax(200px, 1fr) 46px;
   }
 
   #chat .msg.closed[data-type=condensed] .msg {
@@ -348,7 +350,7 @@ input {
   }
 
   #chat .from {
-    flex: 0 0 auto;
+    grid-column: 1 / -1;
     -webkit-mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px);
     mask-image: linear-gradient(270deg, transparent, var(--window-bg-color) 10px);
     padding-right: 10px;
@@ -1041,7 +1043,7 @@ body #connectform input.input {
       font-size: var(--font-size-chat-timestamp);
       margin-right: 0;
       position: static;
-      white-space: normal;
+      white-space: nowrap;
     }
 
     &.previous-source {
