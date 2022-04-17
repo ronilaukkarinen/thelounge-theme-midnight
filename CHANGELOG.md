@@ -1,3 +1,7 @@
+### 1.1.7: 2022-04-17
+
+* Fix gap between message and timestamp on some mobile devices
+
 ### 1.1.6: 2022-04-17
 
 * Remove strange margins, fixes to conversation layout

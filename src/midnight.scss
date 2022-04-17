@@ -336,10 +336,11 @@ input {
     float: left;
     font-size: var(--font-size-msg);
     gap: 0 2px;
-    grid-template-columns: minmax(50px, 1fr) 46px;
+    grid-template-columns: minmax(50px, 1fr) 50px;
   }
 
   #chat .time {
+    justify-self: flex-end;
     overflow: visible;
     white-space: nowrap;
     width: auto !important;
