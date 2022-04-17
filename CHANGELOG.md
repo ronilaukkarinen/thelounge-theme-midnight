@@ -1,3 +1,7 @@
+### 1.1.4: 2022-04-17
+
+* Remove extra margin
+
 ### 1.1.3: 2021-09-06
 
 * Switch hilight and self backgrounds
