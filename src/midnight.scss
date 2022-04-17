@@ -329,9 +329,12 @@ input {
 
   #chat .msg:not(.closed):not([data-type=condensed]),
   #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
+    align-items: flex-end;
     clear: both;
+    display: flex;
     float: left;
     font-size: var(--font-size-msg);
+    gap: 5px;
   }
 
   #chat .msg.closed[data-type=condensed] .msg {
@@ -590,6 +593,7 @@ input {
   background: var(--window-bg-color);
 }
 
+.input[type="text"],
 #windows #form .input {
   background-color: var(--window-bg-color);
   color: var(--color-form-inputs);
@@ -1035,7 +1039,7 @@ body #connectform input.input {
 
     .time {
       font-size: var(--font-size-chat-timestamp);
-      margin-right: 5px;
+      margin-right: 0;
       position: static;
       white-space: normal;
     }
@@ -1076,8 +1080,7 @@ body #connectform input.input {
     max-width: 82%;
 
     // No need for own nick on mobile
-    .from,
-    .time {
+    .from {
       display: none !important;
     }
 
@@ -1094,7 +1097,6 @@ body #connectform input.input {
     }
   }
 
-  #chat .msg + .msg.previous-source .time,
   #chat .msg + .msg.previous-source .from {
     display: none;
   }
@@ -1131,9 +1133,9 @@ body #connectform input.input {
     opacity: .85;
   }
 
-  #chat .msg:not([data-type="message"]) .time {
-    display: none;
-  }
+  // #chat .msg:not([data-type="message"]) .time {
+  //   display: none;
+  // }
 
   #chat .toggle-content {
     margin-top: 8px;
