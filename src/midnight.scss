@@ -587,6 +587,11 @@ input {
   color: var(--color-date-marker);
 }
 
+// MOTD background color
+#chat .msg[data-type=monospace_block] .text {
+  background: var(--window-bg-color);
+}
+
 // Forms
 #form {
   background: var(--window-bg-color);
