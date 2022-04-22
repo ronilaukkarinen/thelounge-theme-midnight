@@ -1,3 +1,7 @@
+### 1.1.8: 2022-04-22
+
+* Fix MOTD background color #3
+
 ### 1.1.7: 2022-04-17
 
 * Fix gap between message and timestamp on some mobile devices
